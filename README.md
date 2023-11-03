@@ -1,7 +1,7 @@
 # Projeto Final  Coderhouse - Pipeline de Dados com Python
 Este repositório foi criado para entrega do projeto final do curso de Python da Coderhouse. Ele contém um exemplo de código Python que realiza a coleta, transformação e armazenamento de dados de diferentes fontes usando, principalmnte, a biblioteca Pandas e a API do BrasilAPI. O código foi desenvolvido para criar um pipeline de dados que inclui a extração de dados de feriados nacionais, informações de corretoras ativas no Brasil e taxas de juros vigentes no país. Os dados coletados são então transformados e armazenados em um banco de dados SQLite para fácil acesso em etapas posteriores da análise.
 
-Descrição das Etapas
+# Descrição das Etapas
 1. Coleta de Dados
    
     O código utiliza a biblioteca requests para fazer solicitações à API do BrasilAPI. Três conjuntos de dados são coletados:
@@ -30,7 +30,7 @@ Descrição das Etapas
 
     Os conjuntos de dados transformados são armazenados em um banco de dados SQLite chamado 'coderhouse.db' usando a biblioteca sqlalchemy. Isso permite que os dados sejam facilmente acessados e consultados em etapas posteriores da análise.
 
-Requisitos:
+# Requisitos:
 
    . Python 3.x
    
